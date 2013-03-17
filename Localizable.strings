@@ -1,0 +1,18 @@
+
+// General 
+"hello" = "Hello World, MyProject!"
+"app_name" = "MyProject"
+"ok" = "OK"
+"cancel" = "Cancel"
+"no_image" = "No Image"
+"saving" = "Saving..."
+"loading" = "Loading"
+"default_string" = "Default"
+"no_search_result" = "No Results Found"
+"yes" = "Yes"
+"no" = "No"
+"no_network_connection" = "No Network Connection"
+"searching" = "Searching..."
+"rear_camera" = "Rear Camera"
+"front_camera" = "Front Camera"
+"camera_type" = "Camera Type"
