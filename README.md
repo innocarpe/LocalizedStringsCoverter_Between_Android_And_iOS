@@ -18,9 +18,9 @@ You can convert localized strings Between Android Project(strings.xml) and iOS P
 
 
 
-1. 같은 폴더에 변환을 원하시는 strings.xml 파일이나 Localizable.strings 파일을 위치시킵니다.
-2. 맥에서는 Terminal에서 루비 스크립트의 디렉토리로 이동한 다음 ruby LocalizedStringsConvert_Android_To_iOS.rb 를 실행하면 strings.xml 가 Localizable.strings로 변환됩니다. 
-3. 만들어진 Localizable.strings 를 당신의 프로젝트의 원하는 언어에 복사하세요.  
+1) 같은 폴더에 변환을 원하시는 strings.xml 파일이나 Localizable.strings 파일을 위치시킵니다.
+2) 맥에서는 Terminal에서 루비 스크립트의 디렉토리로 이동한 다음 ruby LocalizedStringsConvert_Android_To_iOS.rb 를 실행하면 strings.xml 가 Localizable.strings로 변환됩니다. 
+3) 만들어진 Localizable.strings 를 당신의 프로젝트의 원하는 언어에 복사하세요.  
 
 
 For further question, contact kwosu87@me.com.   
