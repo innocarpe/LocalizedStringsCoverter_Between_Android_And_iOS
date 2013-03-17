@@ -9,7 +9,7 @@ You can convert localized strings Between Android Project(strings.xml) and iOS P
   
 
 1. put your "strings.xml" file or "Localizable.string" and this ruby file to same directory. 
-1. 같은 폴더에 변환을 원하시는 strings.xml 파일을 위치시킵니다.
+1. 같은 폴더에 변환을 원하시는 strings.xml 파일이나 Localizable.strings 파일을 위치시킵니다.
 
 
 2. run this < ex) in terminal, $ruby LocalizationConverting_Android_XML_to_iOS_Strings.rb
