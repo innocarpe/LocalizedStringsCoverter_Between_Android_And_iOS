@@ -5,7 +5,7 @@
   * Instruction - You should try 1~3 for N times. (N = The number of languages you localized)
   
   1. put your "strings.xml" file and this ruby file to same directory. 
-  2. run this < ex) in terminal, $ruby LocalizedStringsConvert_Android_To_iOS.rb
+  2. run this ruby script. / ex) in terminal, $ruby LocalizedStringsConvert_Android_To_iOS.rb
   3. copy Localizable.strings to your iOS Project.
   
   For further question, contact kwosu87@me.com. 
