@@ -49,7 +49,7 @@ File.open('strings.xml') {
         line = line.strip
         line = line.gsub(/<string name="/, "\"")
         line = line.gsub(/\">/, "\" = \"")
-        line = line.gsub(/<\/string>/, "\"")
+        line = line.gsub(/<\/string>/, "\";")
         # puts line
         stringsFile.puts line
       end
