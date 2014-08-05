@@ -14,7 +14,7 @@
 =end
 
 # open an file
-stringsFile = File.open('Localizable.strings', 'wb')
+stringsFile = File.open('strings.txt', 'wb')
 
 File.open('strings.xml') {
   # parsing an Android XML (Localizing file)
@@ -46,10 +46,11 @@ File.open('strings.xml') {
       
       # main localized strings
       if line =~ /<string name="/
-        line = line.strip
-        line = line.gsub(/<string name="/, "\"")
-        line = line.gsub(/\">/, "\" = \"")
-        line = line.gsub(/<\/string>/, "\";")
+
+        line = line.gsub(/<\/string>/, "")
+        line = line.gsub(/<string name="/, "")
+	line = line.split("\">")[1]
+
         # puts line
         stringsFile.puts line
       end
