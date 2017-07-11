@@ -12,7 +12,7 @@ You can convert localized strings Between Android Project(strings.xml) and iOS P
 3. copy Localizable.strings to your project. 
 
 
-For further question, contact kwosu87@me.com.   
+For further question, please contact inncarpe@gmail.com
 Thank you.  
   
-made by Wooseong(Steven) Kim - 2013. 03. 18.  
+made by Wooseong Kim - 2013. 03. 18.  
